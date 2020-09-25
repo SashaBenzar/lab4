@@ -8,7 +8,7 @@ int main()
     for (a; a<=b; a+=dx){
     x=a;
     y=pow(x,3);
-    printf("x:%g    y:%g\n",x,y);
+    printf("%g\t%7.2lf\n", x, y);
 }
     return 0;
 }
